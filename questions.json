@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "How many pictures are there?",
+      "fields": {
+        "a": 1,
+        "b": 2,
+        "c": 3,
+        "d": 4
+      },
+      "answer": 4
+    },
+    {
+      "question": "How many cushions are there?",
+      "fields": {
+        "a": 1,
+        "b": 2,
+        "c": 3,
+        "d": 4
+      },
+      "answer": 2
+    },
+    {
+      "question": "What is it hanging from the ceiling?",
+      "fields": {
+        "a": "Ballon",
+        "b": "Clouds",
+        "c": "Cushions",
+        "d": "Plant"
+      },
+      "answer": "Plant"
+    },
+    {
+      "question": "Is the lamp turned on?",
+      "fields": {
+        "a": "No",
+        "b": "Yes",
+        "c": "There is no lamp",
+        "d": "One is on but the other is not"
+      },
+      "answer": "No"
+    },
+    {
+      "question": "What color is the wall?",
+      "fields": {
+        "a": "Black",
+        "b": "Yellow",
+        "c": "White",
+        "d": "Gray"
+      },
+      "answer": "White"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+* {
+  margin: 5px 0;
+  background-color: azure;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #fff;
+  color: gray;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  font-size: 25px;
+  background-color: fff;
+  color: #668ad8;
+  font-weight: bold;
+  background-color: white;
+}
+
+/* index */
+.container {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.btn-square-shadow {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: linear-gradient(
+    to right,
+    rgb(88, 167, 194),
+    rgb(97, 196, 97)
+  ); /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+
+.btn-square-shadow:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px); /*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2); /*影を小さく*/
+  border-bottom: none;
+}
+
+/* memorize */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.main img {
+  height: 400px;
+  width: 500px;
+}
+
+.memorize {
+  text-align: center;
+}
+
+.memorize h3 {
+  font-size: 25px;
+  color: rgb(98, 98, 228);
+}
+
+#countdown {
+  font-size: 25px;
+  color: gray;
+}
+
+.button {
+  margin-left: 100px;
+}
+
+.btn-gradient-3d {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 5px;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  color: rgba(0, 69, 212, 0.47);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #5e7fca;
+}
+
+.btn-gradient-3d:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+.blink {
+  animation: blinkAnime 1s infinite alternate;
+}
+@keyframes blinkAnime {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+/* question */
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.ul {
+  font-size: 20px;
+  display: none;
+}
+
+.pressed {
+  display: block;
+}
+
+.argument {
+  width: 700px;
+  margin-bottom: 30px;
+}
+
+.li {
+  list-style-type: none;
+  line-height: 50px;
+}
+
+.option {
+  height: 30px;
+  width: 200px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.optionclicked {
+  background-color: gray;
+  transition: 0.3s;
+}
+
+.btn-circle-fishy {
+  position: absolute;
+  top: 61%;
+  left: 60%;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 25px;
+  text-align: center;
+  background: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  transition: 0.4s;
+}
+
+.btn-circle-fishy:hover {
+  opacity: 0.85;
+}
+
+/* result */
+.result {
+  text-align: center;
+  line-height: 5rem;
+}
+
+.back {
+  text-align: center;
+}
+
+.btn-text-3d {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 37px;
+  color: #799dec;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #6182ca,
+    0px 2px 0px #4f6aa7, 0px 3px 0px #5470ad;
+}
+.btn-text-3d:active {
+  top: 4px;
+  text-shadow: none;
+}
